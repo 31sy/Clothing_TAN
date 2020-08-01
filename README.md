@@ -1,15 +1,18 @@
 # Clothing_TAN
 This respository includes a PyTorch implementation of Task-aware Attention Model for Clothing Attribute Prediction.
-# PGECNet
-This respository includes a PyTorch implementation of PGECNet. 
 
 ## Requirements:<br>
 python 3.6<br>
 PyTorch<br>
 
-## Dataset and pretrained model<br>
-Plesae download [LIP](http://sysu-hcp.net/lip/overview.php) dataset<br>
+## Dataset<br>
+Plesae download woman clothing dataset accoding to baidu yun link [Fashion dataset](http://pan.baidu.com/s/1q17c2jmkrc_4_4DrgJb_4A) MM:8pm4 <br>
 
+## Running <br>
+Runing TAN based on AlexNet backbone. <br>
+bash train_val_alexnet.sh <br>
+Runing TAN based on AlexNet backbone. <br>
+bash train_val_vgg16.sh<br>
 
 ## Acknowledgment  
 
